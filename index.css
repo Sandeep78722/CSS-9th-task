@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(250, 247, 243);
+}
+.heady{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    cursor: pointer;
+}
+.child{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+body{
+    /* font-family: "Inconsolata", sans-serif; */
+}
+
+html,
+body{
+    width: 100%;
+}
+
+.item a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+}
+
+.item:hover{
+    background-color: rgb(224, 220, 220);
+}
+
+.item:hover a{
+    color: black;
+
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+
+.image{
+    position: relative;
+}
+.img1{
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 75vh;
+    filter: grayscale(50%);
+    position: relative;
+    bottom: 0;
+}
+
+.text-1{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 15px;
+    padding: 4px 8px 4px 8px;
+    margin-left: 20px;
+    bottom: 10px;
+    position: absolute;
+}
+
+.text-2{
+    color: white;
+    right: 0;
+    padding-right: 20px;
+    bottom: 12px;
+    position: absolute;
+}
+
+
+.text-3{
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 90px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.text-4{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    line-height: 27px;
+    justify-content: center;
+    letter-spacing: 5px;
+    margin-top: 64px;
+    margin-bottom: 64px; 
+}
+
+.text-4 > span{
+    font-family: "Segoe UI",Arial,sans-serif;
+    width: fit-content;
+    background-color: black;
+    padding: 5px;
+}
+
+.main-para{
+    font-family: "Inconsolata", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 5px;
+    
+
+}
+
+.para{
+    width: 750px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.para1{
+    width: 750px;
+    text-align: justify;
+    font-size: 18px;
+    margin: 18px;
+}
+
+.para2{
+    background-color: #f1f1f1;
+    border-left: 6px solid #ccc;
+    padding: 18px;
+    width: 750px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+.img2{
+    width: 750px;
+}
+
+.img2>img{
+    width: 100%;
+    display: block;
+}
+
+.img2>p{
+    margin: 16px 4px;
+}
+
+
+.text-5{
+    color: aliceblue;
+    width: 100%;
+    font-weight: 400;
+    font-weight: 18px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    margin-top: 64px;
+    margin-bottom: 64px; 
+}
+
+.text-5>span{
+    font-family: "Segoe UI",Arial,sans-serif;
+    width: fit-content;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.main-sandy{
+    /* border: 1px solid black; */
+    background-color: rgb(255, 253, 250);
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 100%; */
+    padding: 8px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.sandy{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    transition: 0.3 ease;
+    
+}
+
+.sandy>a {
+    text-decoration: none;
+    display: block;
+    color: rgb(7, 7, 7);
+}
+
+.sandy:hover{
+    background-color: #616161;
+}
+
+.sandy:hover>a{
+    color: aliceblue;
+}
+
+iframe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.simage{
+    width: 750px;
+}
+
+
+.simage>img{
+    width: 100%;
+    display: block;
+    filter: grayscale(50%);
+    padding-top: 20px;
+}
+
+.text-6{
+    color: aliceblue;
+    width: 100%;
+    font-weight: 400;
+    font-weight: 18px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    margin-top: 64px;
+    margin-bottom: 64px; 
+}
+
+.text-6>span{
+    font-family: "Segoe UI",Arial,sans-serif;
+    width: fit-content;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.dimage{
+    width: 750px;
+    margin: 10px 0 10px 0;
+}
+
+
+.dimage>img{
+    width: 100%;
+    display: block;
+    filter: grayscale(50%);
+}
+
+.parag{
+    width: 750px;
+}
+
+.parag > .parag2{
+       font-size: 18px;
+       color: white; 
+       background-color: black; 
+       padding-left: 8px; 
+       padding-right: 8px;
+}
+
+.inp>input{
+    width: 100%;
+    outline: none;
+    font-size: 2.2rem;
+    line-height: 27px;
+    width: 750px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid grey;
+    padding: 16px 8px 16px ;
+}
+
+button{
+    border: none;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: #cdc6c6;
+    color: black;
+}
+
+.under a{
+    display: block;
+    text-decoration: none;
+    outline: none;
+    font-size: 5rem;
+    line-height: 27px;
+    width: 750px;
+}
+
+footer{
+    /* border: 1px solid black; */
+    padding-top: 48px;
+    padding-bottom: 58px;
+    background-color: #ffffff;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+    
+
+}
+ footer>a{
+    color: black;
+ }
